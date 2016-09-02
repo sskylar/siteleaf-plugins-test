@@ -1,0 +1,15 @@
+---
+title: Oak Studios
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: http://oak.is
+permalink: pretty
+gems:
+- jekyll-assets
+- jekyll-seo-tag

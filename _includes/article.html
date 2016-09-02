@@ -1,0 +1,15 @@
+<article class="article">
+  {% if include.article.image %}
+    {% img '{{ include.article.image }}' magick:resize:'100x100' alt:'{{ include.article.title }}' class:'article__banner' %}
+  {% endif %}
+
+  {{ include.article.collection }}
+
+  {% if include.article.layout == 'post' %}
+    <h1 class="article__title">{{ include.article.title }}</h1>
+  {% endif %}
+
+  <div class="article__content">
+    {{ include.content }}
+  </div>
+</article>

@@ -1,0 +1,54 @@
+@import 'utils/vars';
+@import 'utils/functions';
+
+body {
+  background: #fff;
+  color: $color--gray;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: $font-size--base;
+  margin: 0;
+}
+
+audio, embed, img, video {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  color: $color--black;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+a {
+  color: $color--blue;
+
+  &:hover {
+    color: $color--dark-blue;
+  }
+}
+
+.main {
+  line-height: 1.4;
+}
+
+.wrap {
+  margin: auto;
+  max-width: 900px;
+  width: 90%;
+}
+
+.skip-to-main {
+  position: fixed;
+  left: -9999px;
+  top: -9999px;
+
+  &:focus {
+    top: $gutter;
+    left: $gutter;
+  }
+}
+
+@import 'components/header';
+@import 'components/article';
+@import 'components/footer';
