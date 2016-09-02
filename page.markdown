@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Page
+layout: page
 image: blog-post-image.png
 ---
 

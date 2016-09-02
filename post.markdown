@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Post
+layout: post
 image: blog-post-image.png
 tags:
 - sfw
