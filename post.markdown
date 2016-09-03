@@ -1,6 +1,5 @@
 ---
 title: Post
-layout: post
 image: blog-post-image.png
 tags:
 - sfw
@@ -9,9 +8,12 @@ tags:
 categories:
 - travel
 - photography
+layout: post
 ---
 
 # **Designed to help your team collaborate better**
+
+{% img 'blog-post-image.png' magick:resize:'200x200' %}
 
 Whether your team is all in the same room or spread across the globe, everyone can upload images, share screenshots, write text, bookmark websites, post documents, and keep everything searchable, all in one place.
 
